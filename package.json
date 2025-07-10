@@ -1,0 +1,44 @@
+{
+  "name": "windows12",
+  "version": "10.0.5",
+  "icon":"app/icon/windows12.png",
+  "description": "Windows12 Desktop App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+ "devDependencies": {
+    "electron": "37.2.0",
+    "electron-builder": "^26.0.12"
+  },
+  "author": {
+    "name": "tangyuan0821",
+    "email": "tangyuan0821@hotmail.com"
+  },
+"homepage": "https://github.com/tjy-github/win12",
+  "license": "EPL-2.0",
+"build": {
+  "appId": "com.example.windows12",
+  "productName": "Windows12",
+  "directories": {
+    "output": "dist"
+  },
+  "win": {
+    "target": "nsis"
+  },
+  "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": [
+      "deb",
+      "rpm",
+      "AppImage"
+    ],
+ "maintainer": "tangyuan0821 <tangyuan0821@hotmail.com>",
+"icon": "app/icon/windows12.svg",
+"category": "Development"
+    }
+  }
+}

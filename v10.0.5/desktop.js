@@ -671,9 +671,9 @@ const nts = {
     },
     'feedback': {
         cnt: `<p class="tit">${lang('反馈','nts.feedback.name')}</p>
-            <p>${lang('我们非常注重用户的体验与反馈','nts.feedback.txt')}</p>
+            <p>${lang('我们注重用户体验，但请确保反馈内容与桌面版软件相关；若涉及网页版问题，请移步至tjy-gitnub/win12 提交。','nts.feedback.txt')}</p>
             <list class="new">
-                <a class="a" onclick="window.open('https://github.com/tjy-gitnub/win12/issues','_blank');" win12_title="在浏览器新窗口打开链接" onmouseenter="showdescp(event)" onmouseleave="hidedescp(event)">${lang('在github上提交issue (需要github账户)','nts.feedback.github')}</a>
+                <a class="a" onclick="window.open('https://github.com/tangyuan0821/win12-releases-LTS/issues','_blank');" win12_title="在浏览器新窗口打开链接" onmouseenter="showdescp(event)" onmouseleave="hidedescp(event)">${lang('在github上提交issue (需要github账户)','nts.feedback.github')}</a>
             </list>`,
         btn: [
             { type: 'main', text: lang(lang('关闭','close'),'close'), js: 'closenotice();' },
